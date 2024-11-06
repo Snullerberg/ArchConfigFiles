@@ -1,0 +1,30 @@
+Installed using archinstall
+
+Kernel: linux
+Optional packages: multilib
+
+Profile packages(Desktop, Hyprland, NVidia proprietary, ly:
+
+htop openssh wget xdg-utils iwd smartmontools wireless_tools nano vim wpa_supplicant
+dolphin hyprland qt5-wayland wofi dunst kitty qt6-wayland xdg-desktop-portal-hyprland grim polkit-kde-agent slurp
+polkit
+dkms nvidia-dkms xorg-server xorg-xinit
+ly
+pipewire
+
+linux-firmware
+neovim
+timeshift
+git
+waybar
+
+nvidia-utils
+lib32-nvidia-utils
+egl-wayland
+libva-nvidia-driver
+hyprpaper
+bluez 
+blueman
+steam
+vesktop
+firefox
