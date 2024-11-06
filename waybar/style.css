@@ -1,0 +1,19 @@
+* {
+    border: none;
+    border-radius: 1px;
+    font-family: "lilex";
+    font-size: 14px;
+    font-weight: bold;
+    min-height: 10px;
+    background: #000000;
+    color: #ffff00;
+}
+
+#tray {
+    background: #ffff00;
+    color: #ffff00;
+}
+
+#window {
+    color: #ffff00;
+}

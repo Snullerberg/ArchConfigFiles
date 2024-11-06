@@ -1,0 +1,47 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 20,
+    "spacing": 4,
+    "modules-left": [],
+    "modules-center": ["clock"],
+    "modules-right": ["battery", "bluetooth"],
+    "sway/window": {
+        "max-length": 50
+    },
+    "clock": {
+	"timezones": [
+	    "Europe/Copenhagen"
+	],
+	"interval": 1,
+	"format": "{:%d/%m/%y - %u/7 - %H.%M:%S}",
+        "format-alt": "{:%z UTC | Week: %V | %H.%M:%S}",
+	"tooltip-format": "<tt><small>{calendar}</small></tt>",
+	"calendar": {
+	   "mode": "year",
+	   "mode-mon-col": 3,
+	   "weeks-pos": "right",
+	   "on-scroll": 1,
+	   "format": {
+		"months": "<span color='#ffead3'><b>{}</b></span>",
+		"days": "<span color='#ffd300'><b>{}</b></span>",
+                "weeks": "<span color='#dcd7a0'><b>{}</b></span>",
+                "weekdays": "<span color='#f5f5d1'><b>{}</b></span>",
+                "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+	    }
+	},
+	"actions": {
+	    "on-click-right": "mode"
+	}
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "bluetooth": {
+	"format": " {status}",
+	"tooltip-format": "{status} : {device_alias}",
+	"on-click": "blueman-manager"
+    }
+
+}
